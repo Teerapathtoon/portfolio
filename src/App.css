@@ -52,14 +52,15 @@ nav ul li a {
 .profilepic {
   border-radius: 50%;
   width: 400px;
-  margin: 30px;
+  margin: 20px;
+  margin-bottom: 20px;
 }
 
 .social {
-  position: absolute;
-  margin-top: 20px;
+  position: relative;
+  margin-top: 50px;
   display: flex;
-  bottom: 60px;
+  
 }
 .social i {
   padding-right: 30px;
@@ -114,4 +115,16 @@ p {
 
 .active {
   font-weight: bolder;
+}
+
+.myproject{
+  margin-top: 50px;
+    background-color: aquamarine;
+}
+
+.linktoproject{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-around;
 }
